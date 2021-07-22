@@ -1,0 +1,18 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>第一篇博客尝试写作</title>
+	<style type="text/css">
+		p{ text-indent:2em;}
+	</style>
+</head>
+<body>
+	在安装完mysql后，在终端通过命令：
+	mysql -u root -p<br/>
+	然后输入密码后进入welcome界面，但是输入命令show databases;提示需要更改密码才可以。这里使用命令：<br/>
+	mysql> set password=password("youpassword");
+	mysql> flush privileges;<br/>
+	然后就可以在终端使用mysql了。
+</body>
+</html>
